@@ -187,7 +187,7 @@ async def bot_reaction_message(update: Update, context: ContextTypes.DEFAULT_TYP
 
 # Основная функция запуска бота
 async def main():
-    bot_key = '7577210942:AAFMb8XLoxQCsfmuwKLyOJZLn8DXTeKCZSk'
+    bot_key = '##############################'
     app = Application.builder().token(bot_key).build()
 
     # Добавляем обработчики команд
